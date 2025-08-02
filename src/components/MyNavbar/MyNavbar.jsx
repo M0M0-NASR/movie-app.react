@@ -3,10 +3,11 @@ import Container from "react-bootstrap/Container";
 import Form from "react-bootstrap/Form";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import styles from "./MyNavbar.module.css";
 
 function MyNavbar() {
   return (
-    <Navbar expand="lg" className="">
+    <Navbar expand="lg" className={styles.navbar}>
       <Container fluid>
         <Navbar.Brand href="#">{import.meta.env.VITE_APP_NAME}</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />

@@ -1,4 +1,16 @@
 .navbar {
-  background-color: #195adb !important;
-  color: red !important;
+  background-color: #282c34 !important;
+
+}
+
+.navbar a {
+  color: white !important;
+}
+
+.navbar a:hover {
+  color: #61dafb !important;
+}
+
+.navbar-toggler {
+  color: white !important;
 }
