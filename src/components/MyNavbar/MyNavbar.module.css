@@ -1,6 +1,7 @@
 .navbar {
   background-color: #282c34 !important;
-
+  display: flex !important;
+  justify-content: space-between !important;
 }
 
 .navbar a {
@@ -13,4 +14,12 @@
 
 .navbar-toggler {
   color: white !important;
+}
+
+.navbar-collapse{
+  display: flex !important;
+  flex-direction: row;
+  justify-content: space-around !important;
+ align-items: center; 
+
 }

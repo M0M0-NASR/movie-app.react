@@ -11,9 +11,9 @@ function MyNavbar() {
       <Container fluid>
         <Navbar.Brand href="#">{import.meta.env.VITE_APP_NAME}</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
-        <Navbar.Collapse id="navbarScroll">
+        <Navbar.Collapse id="navbarScroll" className="d-flex justify-content-center">
           <Nav
-            className="me-auto my-2 my-lg-0"
+            className="me-auto my-2 my-lg-0 "
             style={{ maxHeight: "100px" }}
             navbarScroll
           >
@@ -28,6 +28,10 @@ function MyNavbar() {
             />
             <Button variant="outline-success">Search</Button>
           </Form>
+          <div className="loginSignUpControl">
+            <Button variant="outline-success">Login</Button>
+            <Button variant="outline-success">Sign Up</Button>
+          </div>
         </Navbar.Collapse>
       </Container>
     </Navbar>
